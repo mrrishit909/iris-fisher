@@ -191,7 +191,7 @@ def main():
 
     # Fisher's linear discriminant on all 150 flowers
     lda = LinearDiscriminantAnalysis().fit(X, y); Z = lda.transform(X)
-    pd.DataFrame({"line": np.arange(1, 151), "species": d["species"], "ld1": Z[:, 0], "ld2": Z[:, 1]}).round(5).to_csv(R / "lda_axes.csv", index=False)
+    pd.DataFrame({"line": np.arange(1, 151), "species": d["species"], "ld1": Z[:, 0], "ld2": Z[:, 1], "lda_wrong": (lda.predict(X) != y).astype(int)}).round(5).to_csv(R / "lda_axes.csv", index=False)
     pd.DataFrame([{"ld1_share": lda.explained_variance_ratio_[0], "ld2_share": lda.explained_variance_ratio_[1], "errors_on_all_150": int((lda.predict(X) != y).sum())}]).round(6).to_csv(R / "lda_summary.csv", index=False)
 
     for f in ("audit", "file_diff", "duplicates", "rule_full_fit", "models", "single_measurement", "file_effect", "learning_summary", "hard_flowers", "lda_summary"):
