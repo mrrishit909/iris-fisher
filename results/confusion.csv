@@ -1,0 +1,91 @@
+model,true,predicted,count
+always setosa,Iris-setosa,Iris-setosa,500
+always setosa,Iris-setosa,Iris-versicolor,0
+always setosa,Iris-setosa,Iris-virginica,0
+always setosa,Iris-versicolor,Iris-setosa,500
+always setosa,Iris-versicolor,Iris-versicolor,0
+always setosa,Iris-versicolor,Iris-virginica,0
+always setosa,Iris-virginica,Iris-setosa,500
+always setosa,Iris-virginica,Iris-versicolor,0
+always setosa,Iris-virginica,Iris-virginica,0
+rule: sepal length,Iris-setosa,Iris-setosa,450
+rule: sepal length,Iris-setosa,Iris-versicolor,50
+rule: sepal length,Iris-setosa,Iris-virginica,0
+rule: sepal length,Iris-versicolor,Iris-setosa,60
+rule: sepal length,Iris-versicolor,Iris-versicolor,272
+rule: sepal length,Iris-versicolor,Iris-virginica,168
+rule: sepal length,Iris-virginica,Iris-setosa,10
+rule: sepal length,Iris-virginica,Iris-versicolor,117
+rule: sepal length,Iris-virginica,Iris-virginica,373
+rule: sepal width,Iris-setosa,Iris-setosa,337
+rule: sepal width,Iris-setosa,Iris-versicolor,22
+rule: sepal width,Iris-setosa,Iris-virginica,141
+rule: sepal width,Iris-versicolor,Iris-setosa,40
+rule: sepal width,Iris-versicolor,Iris-versicolor,306
+rule: sepal width,Iris-versicolor,Iris-virginica,154
+rule: sepal width,Iris-virginica,Iris-setosa,139
+rule: sepal width,Iris-virginica,Iris-versicolor,209
+rule: sepal width,Iris-virginica,Iris-virginica,152
+rule: petal length,Iris-setosa,Iris-setosa,500
+rule: petal length,Iris-setosa,Iris-versicolor,0
+rule: petal length,Iris-setosa,Iris-virginica,0
+rule: petal length,Iris-versicolor,Iris-setosa,0
+rule: petal length,Iris-versicolor,Iris-versicolor,441
+rule: petal length,Iris-versicolor,Iris-virginica,59
+rule: petal length,Iris-virginica,Iris-setosa,0
+rule: petal length,Iris-virginica,Iris-versicolor,23
+rule: petal length,Iris-virginica,Iris-virginica,477
+rule: petal width,Iris-setosa,Iris-setosa,500
+rule: petal width,Iris-setosa,Iris-versicolor,0
+rule: petal width,Iris-setosa,Iris-virginica,0
+rule: petal width,Iris-versicolor,Iris-setosa,0
+rule: petal width,Iris-versicolor,Iris-versicolor,478
+rule: petal width,Iris-versicolor,Iris-virginica,22
+rule: petal width,Iris-virginica,Iris-setosa,0
+rule: petal width,Iris-virginica,Iris-versicolor,50
+rule: petal width,Iris-virginica,Iris-virginica,450
+LDA,Iris-setosa,Iris-setosa,500
+LDA,Iris-setosa,Iris-versicolor,0
+LDA,Iris-setosa,Iris-virginica,0
+LDA,Iris-versicolor,Iris-setosa,0
+LDA,Iris-versicolor,Iris-versicolor,480
+LDA,Iris-versicolor,Iris-virginica,20
+LDA,Iris-virginica,Iris-setosa,0
+LDA,Iris-virginica,Iris-versicolor,10
+LDA,Iris-virginica,Iris-virginica,490
+logistic regression,Iris-setosa,Iris-setosa,500
+logistic regression,Iris-setosa,Iris-versicolor,0
+logistic regression,Iris-setosa,Iris-virginica,0
+logistic regression,Iris-versicolor,Iris-setosa,0
+logistic regression,Iris-versicolor,Iris-versicolor,470
+logistic regression,Iris-versicolor,Iris-virginica,30
+logistic regression,Iris-virginica,Iris-setosa,0
+logistic regression,Iris-virginica,Iris-versicolor,37
+logistic regression,Iris-virginica,Iris-virginica,463
+5 nearest neighbours,Iris-setosa,Iris-setosa,500
+5 nearest neighbours,Iris-setosa,Iris-versicolor,0
+5 nearest neighbours,Iris-setosa,Iris-virginica,0
+5 nearest neighbours,Iris-versicolor,Iris-setosa,0
+5 nearest neighbours,Iris-versicolor,Iris-versicolor,472
+5 nearest neighbours,Iris-versicolor,Iris-virginica,28
+5 nearest neighbours,Iris-virginica,Iris-setosa,0
+5 nearest neighbours,Iris-virginica,Iris-versicolor,34
+5 nearest neighbours,Iris-virginica,Iris-virginica,466
+RBF SVM,Iris-setosa,Iris-setosa,499
+RBF SVM,Iris-setosa,Iris-versicolor,1
+RBF SVM,Iris-setosa,Iris-virginica,0
+RBF SVM,Iris-versicolor,Iris-setosa,0
+RBF SVM,Iris-versicolor,Iris-versicolor,471
+RBF SVM,Iris-versicolor,Iris-virginica,29
+RBF SVM,Iris-virginica,Iris-setosa,0
+RBF SVM,Iris-virginica,Iris-versicolor,30
+RBF SVM,Iris-virginica,Iris-virginica,470
+random forest,Iris-setosa,Iris-setosa,500
+random forest,Iris-setosa,Iris-versicolor,0
+random forest,Iris-setosa,Iris-virginica,0
+random forest,Iris-versicolor,Iris-setosa,0
+random forest,Iris-versicolor,Iris-versicolor,466
+random forest,Iris-versicolor,Iris-virginica,34
+random forest,Iris-virginica,Iris-setosa,0
+random forest,Iris-virginica,Iris-versicolor,38
+random forest,Iris-virginica,Iris-virginica,462

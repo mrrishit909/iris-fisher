@@ -1,0 +1,13 @@
+measurement,species,min,mean,max
+sepal length,Iris-setosa,4.3,5.006,5.8
+sepal length,Iris-versicolor,4.9,5.936,7.0
+sepal length,Iris-virginica,4.9,6.587999999999999,7.9
+sepal width,Iris-setosa,2.3,3.428,4.4
+sepal width,Iris-versicolor,2.0,2.77,3.4
+sepal width,Iris-virginica,2.2,2.9739999999999998,3.8
+petal length,Iris-setosa,1.0,1.462,1.9
+petal length,Iris-versicolor,3.0,4.26,5.1
+petal length,Iris-virginica,4.5,5.5520000000000005,6.9
+petal width,Iris-setosa,0.1,0.24600000000000002,0.6
+petal width,Iris-versicolor,1.0,1.3259999999999998,1.8
+petal width,Iris-virginica,1.4,2.026,2.5

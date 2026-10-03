@@ -1,0 +1,5 @@
+model,accuracy_pct,ci_lo,ci_hi
+rule: sepal length,73.0,66.9406,79.0594
+rule: sepal width,53.0,46.3567,59.6433
+rule: petal length,94.5333,90.6332,98.4334
+rule: petal width,95.2,91.2746,99.1254

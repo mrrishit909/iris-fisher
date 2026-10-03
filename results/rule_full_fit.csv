@@ -1,0 +1,5 @@
+measurement,t1,t2,low,middle,high,errors_on_all_150
+sepal length,5.45,6.15,Iris-setosa,Iris-versicolor,Iris-virginica,38
+sepal width,2.95,3.3499999999999996,Iris-versicolor,Iris-virginica,Iris-setosa,61
+petal length,2.45,4.75,Iris-setosa,Iris-versicolor,Iris-virginica,7
+petal width,0.8,1.65,Iris-setosa,Iris-versicolor,Iris-virginica,6

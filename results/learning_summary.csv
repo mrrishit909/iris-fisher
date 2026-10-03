@@ -1,0 +1,25 @@
+per_species,model,mean,p10,p90,flowers
+5,5 nearest neighbours,0.8707,0.7967,0.9367,15
+5,LDA,0.9513,0.9,1.0,15
+5,logistic regression,0.8907,0.8,0.9667,15
+5,rule: petal width,0.9427,0.8667,1.0,15
+8,5 nearest neighbours,0.8993,0.83,0.9667,24
+8,LDA,0.9607,0.93,1.0,24
+8,logistic regression,0.9113,0.83,1.0,24
+8,rule: petal width,0.938,0.8967,1.0,24
+12,5 nearest neighbours,0.924,0.8667,1.0,36
+12,LDA,0.9693,0.9333,1.0,36
+12,logistic regression,0.934,0.8667,1.0,36
+12,rule: petal width,0.95,0.9,1.0,36
+20,5 nearest neighbours,0.9427,0.9,1.0,60
+20,LDA,0.9727,0.9333,1.0,60
+20,logistic regression,0.9507,0.9,1.0,60
+20,rule: petal width,0.9513,0.9,1.0,60
+30,5 nearest neighbours,0.9547,0.9,1.0,90
+30,LDA,0.9787,0.9667,1.0,90
+30,logistic regression,0.956,0.9,1.0,90
+30,rule: petal width,0.9487,0.9,1.0,90
+40,5 nearest neighbours,0.9587,0.9,1.0,120
+40,LDA,0.98,0.9667,1.0,120
+40,logistic regression,0.9553,0.9,1.0,120
+40,rule: petal width,0.952,0.9,1.0,120

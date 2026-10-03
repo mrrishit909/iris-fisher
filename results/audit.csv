@@ -1,0 +1,24 @@
+check,value
+flowers,150.0
+Iris-setosa,50.0
+Iris-versicolor,50.0
+Iris-virginica,50.0
+missing cells,0.0
+duplicate rows (bezdekIris.data),1.0
+duplicate rows (iris.data),3.0
+lines that differ between the two files,2.0
+measurements that differ,3.0
+petal length: setosa maximum,1.9
+petal length: versicolor minimum,3.0
+petal length: versicolor maximum,5.1
+petal length: virginica minimum,4.5
+petal length: virginica maximum,6.9
+petal length: versicolor flowers in the overlap,21.0
+petal length: virginica flowers in the overlap,16.0
+petal width: setosa maximum,0.6
+petal width: versicolor minimum,1.0
+petal width: versicolor maximum,1.8
+petal width: virginica minimum,1.4
+petal width: virginica maximum,2.5
+petal width: versicolor flowers in the overlap,22.0
+petal width: virginica flowers in the overlap,16.0
